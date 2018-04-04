@@ -1,0 +1,12 @@
+            int v1;
+            int v2;
+            //Escreve na tela e recebe o valor 1
+            Console.WriteLine("Equação: valor1 + x = valor2");
+            Console.WriteLine("Digite o valor1");
+            v1 = Convert.ToInt32(Console.ReadLine());
+            //Escreve na tela e recebe o valor 2
+            Console.WriteLine("Digite o valor2");
+            v2 = Convert.ToInt32(Console.ReadLine());
+            //escreve na tela o resultado e só avança se alguma tecla for pressionada
+            Console.WriteLine("X = " + (v2 - v1));
+            Console.ReadKey()
